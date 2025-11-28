@@ -22,54 +22,54 @@ Clean UI with buttons for editing, deleting, and managing tasks.
 
 🗂️ Task Operations (CRUD):
 
-✨ Create
-Add Task form
+✨ Create:
+Add Task form &
 Buttons: Add, Cancel
 
-📝 Read
+📝 Read:
 View all tasks on the homepage.
 Tasks displayed in clean card/list layout.
 
-✏️ Update
-Update Task form
+✏️ Update:
+Update Task form &
 Buttons: Update, Cancel
 
-🗑 Delete
+🗑 Delete:
 Delete Task moves the task to Trash.
 Edit Task with Save & Cancel options.
 
 🗑️ Trash / Recycle Bin Functionality:
 
 For Individual Tasks:
-♻️ Restore Task
+♻️ Restore Task &
 ❌ Delete Permanently
 
 Bulk Trash Management:
-🔄 Restore All Tasks
+🔄 Restore All Tasks &
 🧹 Delete All Tasks Permanently
 
 💬 Popup Notifications:
 
 Every action gives instant feedback to the user:
-Login success
-Logout
-Task Added
-Task Updated
-Task Deleted
-Task Restored
+Login success,
+Logout,
+Task Added,
+Task Updated,
+Task Deleted,
+Task Restored.
 
 🧠 Django ORM Usage:
 
 This project does not use raw SQL.
 All operations use Django’s ORM, such as:
 
-Task.objects.create(...)
-Task.objects.filter(...)
-Task.objects.get(...)
-Task.objects.update(...)
-Task.objects.delete()
+Task.objects.create(...),
+Task.objects.filter(...),
+Task.objects.get(...),
+Task.objects.update(...),
+Task.objects.delete().
 
-🛠 Tech Stack
+🛠 Tech Stack:
 
 Component	     Technology
 Frontend	     HTML, CSS, JavaScript
